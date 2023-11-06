@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class StddevService {
-  private baseURL: string = 'https://testing-api-service-codigyx.cloud.okteto.net';
+  private baseURL: string = 'https://deploy-service-lord17charly.cloud.okteto.net/';
 
   constructor(private http: HttpClient) {}
 

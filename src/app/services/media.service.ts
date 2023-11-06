@@ -13,8 +13,8 @@ export class MediaService {
     private readonly http: HttpClient
   ) { }
 
-  apiURLDevHours = 'https://testing-api-service-codigyx.cloud.okteto.net/hours'
-  apiURLProxySize = 'https://testing-api-service-codigyx.cloud.okteto.net/size'
+  apiURLDevHours = 'https://deploy-service-lord17charly.cloud.okteto.net/hours'
+  apiURLProxySize = 'https://deploy-service-lord17charly.cloud.okteto.net/size'
 
 
   //http opcions
